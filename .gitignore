@@ -1,0 +1,90 @@
+[Bb]in/
+[Oo]bj/
+[Ll]ib/
+*.suo
+*.user
+*.vsmdi
+_Resharper*
+packages/
+*.trx
+~*.xlsx
+*.jfm
+*.swp
+*.tmp
+*.temp
+
+# build output
+Libraries/
+Artifacts/
+Local Publish/
+CommonAssemblyInfo.cs
+
+*.dbmdl
+*.dbschema
+sql/Database/*/sql/*
+logs/
+debug/
+*.deploymentmanifest
+*.jfm
+*.sqlcmdvars
+*.sqldeployment
+*.sqlsettings
+*.nupkg
+*.orig
+*.log
+output.txt
+PreCompiledWeb/
+*.scmp
+.vs/
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+*.cache
+
+# unit test output
+TestResults.*.*.xml
+*.received.txt
+
+# approval test output
+*.received.txt
+*.received.json
+
+# runtime output
+PRISMPro/code/KORE.PRISMPro.UI/EnvironmentConfig/
+SIDWebClient/code/KORE.SIDWebClient.UI/EnvironmentConfig/
+
+# Exceptions
+!prism_pro_api_3.0/PrismProAPI/Libraries/
+!prism_pro_api_3.0/PRiSMProAPI/App.config
+!prism_pro_api_3.0/PRiSMProAPI Client/app.config
+!prism_pro_api_3.0/PrismProAPI.Services/web.config
+/SAGProEngine_G2/code/SAG.ServiceTypes.KoreVZW/StateChange.cs
+Telematics.Shared/.vs/config/applicationhost.config
+
+# Others - Angular
+**/node_modules/
+**/out-tsc/
+
+# compiled output
+**/KORE.PrismPro.UI/ui
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+README.md
+*.log
+.sonarqube/
